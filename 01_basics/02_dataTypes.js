@@ -1,26 +1,23 @@
-"use strict";
+"use strict" // treat all js code as newer version of javascript
 
-// alert(3+3) //we are using nodejs, not browser
+//alert("Hello") // we are using node not browser, alert working in browser
 
-console.log(3 +3)
+// number => 2 to power 53
+// bigint => use in big number like facebook
+// string => 
+// boolean => for condition true and false
+// null =>
+// undefined => not define
+// symble
 
-console.log("Hites")
+// object
 
-let name = "Lalit"
-let age = 33
-let isLogiedIn = false
+let age = 23;
+let number = 23323323232323232332898898888888888988983223*2;
+let yourName = "Lalit"
+let isLogedIn = true
+let temp = null
+let fName;
 
-// number => 2 ki power 53
-// bigint  => for show to much big number
-// string => define text
-// boolean => true/false
-// null => Standalone value
-// undefined = 
-// symble => unique
-
-// Object
-
-console.log(typeof null) //Object
-console.log(typeof age)
-console.log(typeof undefined)
-console.log(typeof true)
+console.log(typeof age);
+console.table([typeof age, typeof number, typeof yourName, typeof isLogedIn, typeof temp, typeof fName]);
