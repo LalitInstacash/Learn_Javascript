@@ -1,26 +1,28 @@
-"use strict"; // Treat all js code as newer version
+"use strict"; // Treat all code as newer version
 
-// alert("Hello"); // We are using node js not browser
+// alert(3+3) // We are useing node js not browser
 
-console.log(3 + 3)
-console.log("Hitesh")
+console.log(3+4)
+console.log("Hello")
 
-let name = "Hitesh"
-let age = 18
-let isLogedIn = false
-
-// Number  => 2 to power 53
-// bigint => To large number
-// string => "" or in ''
-// boolean => true/false
-// null => standalone value
-// undefined => value not define
-// symble => unique
+// Data types
+// String
+let name = "Lalit" 
+console.log(typeof name)
+// Number
+let age = 18 
+console.log(typeof age)
+//Boolean
+let isLogedIN = true 
+console.log(typeof isLogedIN)
+// Bigint
+let bigNumber = 3434434434343434343434343434 
+// null
+let temptemperature = null;
+console.log(typeof temptemperature)
+// undefined
+let schoolName;
+console.log(typeof schoolName)
+// symble //uniqu
 
 // object
-
-console.log(typeof age);
-console.log(typeof name);
-console.log(typeof undefined);
-console.log(typeof null);
-console.log(typeof isLogedIn)
