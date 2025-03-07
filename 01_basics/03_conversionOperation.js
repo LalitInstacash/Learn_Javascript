@@ -1,27 +1,34 @@
-let score = "Lalit";
+let score = "Lalit"
 
+// console.log(score)
 // console.log(typeof score)
 // console.log(typeof(score))
 
-// let valueInNumber = Number(score)
+let valueInNumber = Number(score)
 // console.log(typeof valueInNumber)
 // console.log(valueInNumber)
 
-
 // "33" => 33
-// "33abc" => NaN // Not a number
-// true => 1 ; false => 0
+// "33abc" => NaN
+// true =>1; false => 0
 
-let number = 22
-let numberIsString = String(number)
-// console.log(typeof numberIsString);
 
-let isLogedIn = 0
-let booleanIsLogedIn = Boolean(isLogedIn)
-console.log(booleanIsLogedIn);
-console.log(typeof booleanIsLogedIn)
+let isLogedIn = 0;
+// console.log(isLogedIn)
+// console.log(typeof isLogedIn)
 
-// 0 => false
-// 1 => true
+let boolionIsLogedIn = Boolean(isLogedIn)
+// console.log(boolionIsLogedIn)
+// console.log(typeof boolionIsLogedIn)
+
+// 1 => true; 0 => false
 // "" => false
-// "string" => true
+//  "Lalit" => true
+
+let lName = 33
+console.log(lName)
+console.log(typeof lName)
+
+let stringInNumber = String(lName)
+console.log(stringInNumber)
+console.log(typeof stringInNumber)
