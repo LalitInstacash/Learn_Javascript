@@ -26,9 +26,51 @@ let boolionIsLogedIn = Boolean(isLogedIn)
 //  "Lalit" => true
 
 let lName = 33
-console.log(lName)
-console.log(typeof lName)
+// console.log(lName)
+// console.log(typeof lName)
 
 let stringInNumber = String(lName)
-console.log(stringInNumber)
-console.log(typeof stringInNumber)
+// console.log(stringInNumber)
+// console.log(typeof stringInNumber)
+
+// ============================ / operator /=========================
+
+let value = 3;
+let negValue = -value
+// console.log(negValue)
+
+// console.log(2 +2)
+// console.log(2 - 2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(10/2)
+// console.log(2%3)
+
+let str1 = "Hello"
+let str2 = " Lalit"
+let str3 = str1 + str2
+// console.log(str3)
+
+// console.log(1 + "2")
+// console.log("1" + 2)
+// console.log("1" + 2 +2) //jb string first me ho tb 
+// console.log(1 + 2 + "2") // Jb string last me ho tb
+
+// console.log(+true)
+
+let gameCount = 100
+gameCount++
+// console.log(gameCount)
+
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
