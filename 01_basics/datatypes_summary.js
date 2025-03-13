@@ -30,4 +30,28 @@ let boject = {
 const myFunction = function(){
     console.log("Hello world")
 }
-console.log(typeof anotherId)
+// console.log(typeof anotherId)
+
+
+// =======================================
+// Stack(Primitive), Heap memory(Non primitive)
+
+// Stack (Primitive)
+let myWebName = "lalitGuptaDotCom"
+let newWebName = myWebName;
+newWebName = "lgDotCom"
+
+console.log(myWebName)
+console.log(newWebName)
+
+// Heap (Non primitive)
+let userOne = {
+    email : "lalitgupta@gmail.com",
+    upi : "lalit@ysm"
+}
+let userTwo = userOne
+
+userTwo.email = "lg@gmail.com"
+
+console.log(userTwo.email)
+console.log(userOne.email)
