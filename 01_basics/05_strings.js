@@ -42,9 +42,35 @@ let index = 1;
 let index1 = -3
 // console.log((`another index ${index1} return ${array1.at(index1)} `));
 
-const str1 = "Hello"
-const str2 = "World"
+// const str1 = "Hello"
+// const str2 = "World"
 
-console.log(str1.concat (" ", str2))
-console.log(str2.concat (", ",  str1));
+// console.log(str1.concat (" ", str2))
+// console.log(str2.concat (", ",  str1));
 
+
+const str1 = "Cats are the best!";
+// console.log(str1.endsWith("best!"));
+// Expected output: true
+
+// console.log(str1.endsWith("best", 17));
+// Expected output: true
+
+const str2 = "Is this a question?";
+
+// console.log(str2.endsWith("question"));
+// console.log(str2.endsWith("question", 18));
+
+// Expected output: false
+
+
+const sentence = "The quick brown fox jumps over the lazy dog.";
+
+const word = "fox";
+
+console.log(
+  `The word "${word}" ${
+    sentence.includes(word) ? "is" : "is not"
+  } in the sentence`,
+);
+// 
