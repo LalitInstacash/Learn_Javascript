@@ -34,13 +34,32 @@ const obj3 = {...obj1, ...obj2}
 
 // console.log(obj3)
 
-console.log(tinderUser2);
-console.log(Object.keys(tinderUser2));
-console.log(Object.values(tinderUser2))
-console.log(Object.entries(tinderUser2));
+// console.log(tinderUser2);
+// console.log(Object.keys(tinderUser2));
+// console.log(Object.values(tinderUser2))
+// console.log(Object.entries(tinderUser2));
 
-console.log(tinderUser2.hasOwnProperty('isLogedIn'));
+// console.log(tinderUser2.hasOwnProperty('isLogedIn'));
 
+const course = {
+    courseName : "Learn JS",
+    courseFee : 999,
+    courserInstructor : "Hitesh"
+}
+// console.log(course.courserInstructor);
+
+const {courserInstructor} = course
+console.log(courserInstructor)
+
+const {courserInstructor : instructor} = course
+console.log(instructor)
+
+// Json format
+// {
+//     "name" : "Lalit",
+//     "courseName" : "Js",
+//     "price" : "free"
+// }
 
 
 
