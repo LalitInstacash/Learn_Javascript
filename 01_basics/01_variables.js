@@ -1,20 +1,13 @@
-const accountId = 233445;
-var accountEmail = "lalit@gmail.com";
-var accountPassword = "123456";
-accountCity = "Jaipur";
+const accountId = 134562
+let accountEmail = "lg@gmail.com"
+var accountPassword = "21212"
+accountCity = "Jaipur"
+let accountState;
 
-//accountId = 2323; // Not allowed
-
-accountEmail = "lg@gmail.com";
-accountPassword = "232323";
+// accountId = 2 //not allowed or const we can't be change
+accountEmail = "lalit@gmail.com"
+accountPassword = "123412"
 accountCity = "Delhi"
 
-console.log(accountId);
-
-/*
-Prefer not to use var
-because of issue in block scope and functional scope
-*/
-
-console.group(accountId, accountEmail, accountPassword, accountCity);
-console.table([accountId, accountEmail, accountPassword, accountCity]);
+console.log(accountId)
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
