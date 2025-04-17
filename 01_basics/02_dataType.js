@@ -27,7 +27,3 @@ console.log(typeof name)
 console.log(typeof isLogedIn);
 console.log(state);
 console.log(typeof null);
-
-
-
-
