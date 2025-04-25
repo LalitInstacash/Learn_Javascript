@@ -22,7 +22,7 @@ const bigInt = 1214343433434343434343434343434n //last me use and for bigint to 
 
 // Array
 const arrayType = ["Lalit","Robin","Chanchal"]
-console.log(arrayType);
+// console.log(arrayType);
 
 
 // Objects
@@ -31,10 +31,29 @@ const myObj = {
     age : 34,
     hobby : "Cricket"
 }
-console.log(myObj)
+// console.log(myObj)
 
 const myFun =  function(){
     console.log("Hello world");
     
 }
-console.log(myFun)
+// console.log(myFun)
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive), heap(Non primitive)
+let yourName = "Lalit"
+let myHomeName = yourName
+myHomeName = "Lavi"
+
+console.log(yourName);
+console.log(myHomeName)
+
+let userOne = {
+    name : "Lalit",
+    email : "gl@gmail.com"
+}
+let userTwo = userOne
+userTwo.email = "lalit@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
