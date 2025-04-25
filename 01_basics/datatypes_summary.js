@@ -1,57 +1,40 @@
-// =========================/ Primitive data type
-// 7 types => string, number, boolearn, null, undefined, bigint, symble,
+// Primitive data type
+// 7 types of primitive => string, number, boolearn, null, undefined, symble, bigint
 
-const score = 100 // Number
-const newScore = 100.3 // Number
-const isLogedin = false //Boolearn
-const tempOutside = null //null
-let userEmail //undefined
+const score = 100;
+const valueScore = 100.3
+const isLogedIn = false
+const getTemp = null
+let userEmail;
+const name = "Lalit"
 
-const id = Symbol("123")
-const anotherId = Symbol("123")
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
 // console.log(id === anotherId)
 
-const bigNumber = 123456734568987654n //use n for bigint
-// console.log(typeof bigNumber)
+const bigInt = 1214343433434343434343434343434n //last me use and for bigint to show large number
+// console.log(typeof bigInt)
 
-// ===========================/ Reference (Non primitive)
-// types => Array, Objects, Functions
 
-// array
-const superHero = ["Shaktiman", "doga", "aryaman"]
+// Referance (Non primitive)
+// Array, Objects, Functions
+
+// Array
+const arrayType = ["Lalit","Robin","Chanchal"]
+console.log(arrayType);
+
 
 // Objects
-let boject = {
+const myObj = {
     name : "Lalit",
-    age : 23,
+    age : 34,
+    hobby : "Cricket"
 }
+console.log(myObj)
 
-// Functions
-const myFunction = function(){
-    console.log("Hello world")
+const myFun =  function(){
+    console.log("Hello world");
+    
 }
-// console.log(typeof anotherId)
-
-
-// =======================================
-// Stack(Primitive), Heap memory(Non primitive)
-
-// Stack (Primitive)
-let myWebName = "lalitGuptaDotCom"
-let newWebName = myWebName;
-newWebName = "lgDotCom"
-
-console.log(myWebName)
-console.log(newWebName)
-
-// Heap (Non primitive)
-let userOne = {
-    email : "lalitgupta@gmail.com",
-    upi : "lalit@ysm"
-}
-let userTwo = userOne
-
-userTwo.email = "lg@gmail.com"
-
-console.log(userTwo.email)
-console.log(userOne.email)
+console.log(myFun)
