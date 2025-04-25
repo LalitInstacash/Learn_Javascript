@@ -1,76 +1,39 @@
-let name = "Lalit"
-let repoCount = 10
-// console.log(name + ' ' +repoCount)
+const name = "Lalit"
+const repoCount = 10
 
-// console.log(`My name is ${name} and my repo count is ${repoCount}`)
+// console.log(name + repoCount + " value");
+// console.log(`My name is ${name} and my repoCount is ${repoCount}`);
 
-let gameName = new String("Hello_world_how")
-// console.log(gameName.length)
-// console.log(gameName[0])
-// console.log(gameName[2])
-// console.log(gameName.__proto__)
-// console.log(gameName.toUpperCase())
+const gameName = new String("Lalit 123")
+// console.log(gameName)
+
+// console.log(gameName[1]);
+// console.log(gameName.length);
+
+// console.log(gameName.toUpperCase());
 // console.log(gameName.toLowerCase());
-// console.log(gameName.charAt(6));
-// console.log(gameName.indexOf("w"))
+// console.log(gameName.charAt(3));
+// console.log(gameName.indexOf("l"));
 
-let newString = gameName.substring(0, 7)
+const newString = gameName.substring(0,4)
 // console.log(newString)
 
-const anotherString = gameName.slice(-5,11)
-// console.log(anotherString)
+const anotherString = gameName.slice(-9,4)
+// console.log(anotherString);
 
-const newStringOne = "     Lalit   "
-const lastName = "      Gupta"
-// console.log(newStringOne)
-// console.log(newStringOne.trim());
-// console.log(`${newStringOne.trim()} ${lastName.trim()}`)
+const anotherStringOne = "      Lalit Gupta     "
+// console.log(anotherStringOne)
+// console.log(anotherStringOne.trim())
 
-const url = "https://lalit%20gupta.com"
-// console.log(url)
-// console.log(url.replace("%20", "_"))
-// console.log(url.includes("lalit"))
-// console.log(url.includes("Hello"));
+const url = "https://lggupta.com/lg%20newChan"
+// console.log(url.replace('%20', '_'))
+// console.log(url.includes("gupta"))
 
-// console.log(gameName.split("_"))
+// console.log((gameName.split(" ")));
 
-const array1 = [5, 12, 8, 130, 44];
+const array = [12,11,10,9,8]
+let indexof = 2
+console.log(`Number of ${indexof} in the ${array.at(indexof)}`)
 
-let index = 1;
-
-// console.log(`An index of ${index} return ${array1.at(index)}`)
-let index1 = -3
-// console.log((`another index ${index1} return ${array1.at(index1)} `));
-
-// const str1 = "Hello"
-// const str2 = "World"
-
-// console.log(str1.concat (" ", str2))
-// console.log(str2.concat (", ",  str1));
-
-
-const str1 = "Cats are the best!";
-// console.log(str1.endsWith("best!"));
-// Expected output: true
-
-// console.log(str1.endsWith("best", 17));
-// Expected output: true
-
-const str2 = "Is this a question?";
-
-// console.log(str2.endsWith("question"));
-// console.log(str2.endsWith("question", 18));
-
-// Expected output: false
-
-
-const sentence = "The quick brown fox jumps over the lazy dog.";
-
-const word = "fox";
-
-console.log(
-  `The word "${word}" ${
-    sentence.includes(word) ? "is" : "is not"
-  } in the sentence`,
-);
-// 
+indexof = -2
+console.log(`Number of ${indexof} in the ${array.at(indexof)}`)
