@@ -1,47 +1,37 @@
-const number = 400
-// console.log(number);
+const score = 400
+// console.log(score)
 
-const newNumber = new Number(400.3494)
-// console.log(newNumber)
+const balance = new Number(100)
+// console.log(balance)
 
-// convert in string and get length
-// console.log(newNumber.toString().length)
-// if value big after point or dot to make it short
-// console.log(newNumber.toFixed(2))
+// console.log(balance.toString());
+// console.log(typeof balance.toString());
 
-const anotherNumber = 23.7885
-// console.log(anotherNumber.toPrecision(4))
-// console.log(typeof anotherNumber);
+// console.log(balance.toString().length)
+// console.log(balance.toFixed(2));
+
+const newBalance = 123.8943
+// console.log(newBalance.toPrecision(2))
+// console.log(newBalance.toPrecision(3))
 
 const thousand = 1000000
 // console.log(thousand.toLocaleString('en-IN'));
 
-// ======================================/ Maths /==========================
+
+// ++++++++++++++++++++++++ / Maths /+++++++++++++++++++++
 // console.log(Math)
+// console.log(Math.abs(-4)) //convert minus value in plus
+// console.log(Math.round(4.5)); //value in round of
+// console.log(Math.ceil(4.2)); //after . top of the value
+// console.log(Math.floor(4.9)); // After . lower of the value
+// console.log(Math.min(3,5,1,9)); // Lower value
+// console.log(Math.max(2,9,4,0)); // Highest value
 
-const num = -4
-// console.log(Math.abs(num)); // convert (-) number in plus
+console.log(Math.random());
+console.log((Math.random()*10) + 1);
+console.log(Math.floor (Math.random()*10) + 1);
 
-// console.log(Math.round(4.5))
-// console.log(Math.ceil(4.2)) //after point value convert in higher
-// console.log(Math.floor(4.9)) //after point value convert in lower
+const min = 10
+const max = 20
 
-// console.log(Math.sqrt(16))
-// console.log(Math.sqrt(25))
-// console.log(Math.sqrt(64))
-// console.log(Math.sqrt(100)) 
-
-// console.log(Math.min(3,5,1,9));
-// console.log(Math.max(5,6,3,9))
-
-// console.log(Math.random())
-// console.log(Math.random()*10)
-// console.log((Math.random()*10) + 1)
-// console.log(Math.floor(Math.random()*10) + 1)
-
-const min = 1
-const max = 7
-
-console.log(Math.floor(Math.random() * (max-min))+ min);
-
-
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
