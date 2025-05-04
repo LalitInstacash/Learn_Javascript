@@ -1,35 +1,24 @@
-const myDate = new Date()
+// Dates
+
+const myDate = new Date();
 // console.log(myDate)
-// console.log(myDate.toString())
-// console.log(myDate.toDateString())
-// console.log(myDate.getDate())
-// console.log(myDate.getMonth())
-// console.log(myDate.getUTCMonth())
-// console.log(myDate.getFullYear())
-// console.log(myDate.toISOString())
-// console.log(myDate.toJSON())
-// console.log(myDate.toLocaleDateString())
-// console.log(myDate.toLocaleString())
-// console.log(myDate.toLocaleTimeString())
-// console.log(myDate.toTimeString())
-// console.log(myDate.toUTCString())
+// console.log(myDate.toString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toISOString());
+// console.log(myDate.toJSON());
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toLocaleTimeString());
+// console.log(myDate.toTimeString());
+// console.log((myDate.toUTCString()));
+// console.log(myDate.toLocaleString());
 
 // console.log(typeof myDate);
 
-const newDate = new Date(2025,0,15)
-// console.log(newDate)
-// console.log(newDate.toDateString())
+// const myCreatedDate = new Date(2025,4,4)
+// console.log(myCreatedDate.toDateString())
 
-const newDate1 = new Date(2025,0,15,5,4)
-// console.log(newDate1.toLocaleString())
+const myCreatedDate1 = new Date(2025,4,4, 16,30)
+console.log(myCreatedDate1.toLocaleString())
 
-const dateType = new Date("2023-01-17")
-// console.log(dateType.toLocaleString());
-
-const dateType1 = new Date("02-17-2025")
-// console.log(dateType1.toLocaleString());
-
-const myTimestamp = Date.now()
-console.log(myTimestamp);
-
-
+const myCreatedDate2 = new Date("2023-05-04")
+console.log(myCreatedDate2.toLocaleString());
