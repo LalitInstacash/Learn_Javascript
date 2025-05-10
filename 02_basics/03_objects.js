@@ -1,41 +1,32 @@
 // Singleton
 
 // symble
-const mySym = Symbol("key1")
 
 
 // Object literals
 const jsUser = {
     name: "Lalit",
-    [mySym] : "myKey1",
-    "full name": "Lalit Gupta",
     age : 18,
-    location : "Jaipur",
-    email : "lalit.gupta@gmial.com",
-    isLogedIn : false,
-    lastLoginDays : ["Monday","Saturday"]
+    "full name": "Lalit Gupta",
+    AdharNumber : 123456789098765,
+    lastLogin : ["Monday","Saturday"]
 }
+// console.log(jsUser.name,jsUser.AdharNumber,jsUser.lastLogin[0],jsUser["full name"]);
+// console.log(jsUser["age"])
 
-// console.log(jsUser.name)
-// console.log(jsUser.email)
-// console.log(jsUser["email"]);
-// console.log(jsUser["full name"]);
-// console.log(jsUser[mySym]);
-// console.log(typeof jsUser[mySym]);
+jsUser.age = 32
+// console.log(jsUser.age);
 
-
-jsUser.email = "lalit.gupta@yahoo.com"
 // Object.freeze(jsUser)
-jsUser.email = "lg@gmail.com"
-// console.log(jsUser)
+// console.log(jsUser);
 
-jsUser.greeting = function(){
-    console.log("Hello js user")
+jsUser.greetings = function(){
+    console.log("Hello world")
 }
 
-jsUser.greetingTwo = function(){
-    console.log(`Hello js user ${this.name}`)
+jsUser.greetingsTwo = function(){
+    console.log(`My age is ${this.age}`)
 }
 
-console.log(jsUser.greeting())
-console.log(jsUser.greetingTwo());
+console.log(jsUser.greetings());
+console.log(jsUser.greetingsTwo());
