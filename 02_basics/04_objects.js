@@ -1,66 +1,39 @@
-// Singleton
-// const tinderUser = new Object()
-// console.log(tinderUser)
+// const tinderUser = new Object() // singelton object
+const tinderUser = {}
 
+tinderUser.id = "23erer34"
+tinderUser.name = "Dundin"
+tinderUser.isLoggedIn = false
 
-// Non singleton user
-const tinderUser2 = {}
-
-tinderUser2.id = "abc124"
-tinderUser2.name = "Sammy"
-tinderUser2.isLogedIn = false
-
-// console.log(tinderUser2)
+// console.log(tinderUser);
 
 const regularUser = {
     email : "user@gmail.com",
-    fullName : {
-        userFullName:{
+    fullName :{
+        UserFullName :{
             firstName : "Lalit",
-            lastName : "Gupta"
-        }
+            LastName : "Gupta"
+        },
+        age: 43
     }
 }
+// console.log(regularUser.fullName.UserFullName.firstName, regularUser.fullName.age);
 
-// console.log(regularUser.fullName)
-// console.log(regularUser.fullName.userFullName.firstName);
-
-const obj1 = {1 : "A", 2 : "B"}
-const obj2 = {3: "C", 4: "D"}
-
-// const obj3 = {obj1, obj2}
-// const obj3 = Object.assign ({}, obj1, obj2)
-const obj3 = {...obj1, ...obj2}
-
-// console.log(obj3)
-
-// console.log(tinderUser2);
-// console.log(Object.keys(tinderUser2));
-// console.log(Object.values(tinderUser2))
-// console.log(Object.entries(tinderUser2));
-
-// console.log(tinderUser2.hasOwnProperty('isLogedIn'));
-
-const course = {
-    courseName : "Learn JS",
-    courseFee : 999,
-    courserInstructor : "Hitesh"
-}
-// console.log(course.courserInstructor);
-
-const {courserInstructor} = course
-console.log(courserInstructor)
-
-const {courserInstructor : instructor} = course
-console.log(instructor)
-
-// Json format
-// {
-//     "name" : "Lalit",
-//     "courseName" : "Js",
-//     "price" : "free"
-// }
+const obj1 = {1 : "a", 2 : "b"}
+const obj2 = {3 : "a", 4 : "b"}
+const obj3 = {5 : "a", 6 : "b"}
 
 
+// const obj4 = Object.assign({}, obj1, obj2, obj3);
+const obj4 = {...obj1, ...obj2}
+// console.log(obj4);
+
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
