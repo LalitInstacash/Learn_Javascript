@@ -12,8 +12,7 @@ for (const key in myObject) {
 const programing = ["js", "Rb", "py", "java", "cpp"]
 
 for (const key in programing) {
-    console.log(`${key} is key and value is ${programing[key]}`);
+    // console.log(`${key} is key and value is ${programing[key]}`);
 }
 
 // Map is not iterable 
-

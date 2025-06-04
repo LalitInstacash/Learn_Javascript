@@ -5,6 +5,11 @@ for (const num of arr) {
     // console.log(num);
 }
 
+const superHero = ["Superman",  "batman", "Shaktiman"]
+for (const hero of superHero) {
+    // console.log(hero);
+}
+
 const greetings = "Hello world"
 for (const greet of greetings) {
     // console.log(`Each char is ${greet}`);
