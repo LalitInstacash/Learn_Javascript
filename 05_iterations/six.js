@@ -1,30 +1,26 @@
-const coading = ["js", "cpp", "ruby", "java", "python"]
+// const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// const values = coading.forEach( (item) => {
-//     // console.log(item); 
-// } )
-
+// const values = coding.forEach( (item) => {
+//   // console.log(item);
+//   return item
+// })
 // console.log(values);
 
-const myNum = [1,2,3,4,5,6,7,8,9,10]
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// const newNum = myNum.filter( (num) => (num > 4))
-// console.log(newNum);
-
-// const newNum = myNum.filter( (num) => {
-//     return num > 4
-    
+// const newNums = myNums.filter( (num) => num >4 )
+// const newNums = myNums.filter( (num) => {
+//   return num > 4
 // })
 
-// const newNum = []
+newNums = []
+myNums.forEach( (num) => {
+  if (num > 4) {
+    newNums.push(num)
+  }
+})
 
-// myNum.forEach( (num) => {
-//     if (num > 4) {
-//         newNum.push(num)
-//     }
-// })
-
-// console.log(newNum);
+// console.log(newNums);
 
 const books = [
   { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
@@ -38,3 +34,7 @@ const books = [
   { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
 ];
 
+let userBooks = books.filter( (bk) => bk.genre === "History")
+userBooks = books.filter( (bk) => { return bk.publish >= 1995 && bk.genre === "History" && bk.edition >= 2007})
+
+console.log(userBooks);
